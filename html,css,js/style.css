@@ -1,0 +1,49 @@
+html,
+body{
+    background-color: salmon;
+    margin:0;
+    font-family:'poppons',sans-serif;
+}
+
+#wrapper h2{
+    display:flex;
+    justify-content: center;
+}
+h2{
+    letter-spacing: 1px;
+    color:salmon
+}
+input{
+    border-radius: 5px;
+    border:2px solid black;
+    margin-top: 30px;
+    height: 2.5em;
+    width: 250px;
+    padding-left: 10px;
+    
+}
+input:active{
+    border: none;
+}
+#wrapper{
+    height:500px;
+    width: 400px;
+    margin: 200px auto;
+    background-color:saddlebrown;
+    border-radius: 10px;
+    padding:30px;
+}
+button{
+    background-color: salmon;
+    color:black;
+    height:30px;
+    width:40px;
+    border:1px solid black;
+}
+#todoList{
+    color:white;
+    font-weight: bold;
+    font-size: 25px;
+}
+    
+}
